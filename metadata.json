@@ -2,45 +2,15 @@
   "name": "puppet-postfix",
   "version": "0.1.0",
   "author": "Nicolas Bigler",
-  "summary": "Installs and configures the Postfix mailserver",
+  "summary": "Manages the postfix mailserver",
   "license": "BSD-3-Clause",
   "source": "https://github.com/Bigluu/puppet-postfix",
   "project_page": "https://github.com/Bigluu/puppet-postfix",
   "issues_url": "https://github.com/Bigluu/puppet-postfix/issues",
-  "tags": [
-    "postfix",
-    "mailserver"
-  ],
-  "operatingsystem_support": [
-    {
-      "operatingsystem": "Debian",
-      "operatingsystemrelease": [
-        "7",
-        "8"
-      ]
-    },
-    {
-      "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [
-        "12.04",
-        "14.04"
-      ]
-    }
-  ],
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
-      "version_requirement": ">=4.6.0 <5.0.0"
-    }
-  ],
-  "requirements": [
-    {
-      "name": "pe",
-      "version_requirement": ">=3.7.0 <5.0.0"
-    },
-    {
-      "name": "puppet",
-      "version_requirement": ">=3.7.0 <5.0.0"
+      "version_requirement": ">= 1.0.0"
     }
   ]
 }

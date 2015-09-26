@@ -2,7 +2,7 @@
 
 1. [Overview](#overview)
 2. [Module Description - What the module does and why it is useful](#module-description)
-3. [Setup - The basics of getting started with knot](#setup)
+3. [Setup - The basics of getting started with postfix](#setup)
     * [What postfix affects](#what-postfix-affects)
     * [Setup requirements](#setup-requirements)
     * [Beginning with postfix](#beginning-with-postfix)
@@ -19,35 +19,44 @@ This puppet module manages the [Postfix](http://www.postfix.org/) mail server.
 
 ## Module Description
 
-Postfix is a free and open-source mail transfer agent (MTA) that routes and delivers electronic mail, intended as an alternative to the widely used Sendmail MTA.
-Postfix is released under the IBM Public License 1.0 which is a free software license
+If applicable, this section should have a brief description of the technology the module integrates with and what that integration enables. This section should answer the questions: "What does this module *do*?" and "Why would I use it?"
+
+If your module has a range of functionality (installation, configuration, management, etc.) this is the time to mention it.
 
 ## Setup
 
 ### What postfix affects
-[TBD]
 
-### Setup requirements
-[TBD]
+* A list of files, packages, services, or operations that the module will alter, impact, or execute on the system it's installed on.
+* This is a great place to stick any warnings.
+* Can be in list or paragraph form. 
+
+### Setup Requirements **OPTIONAL**
+
+If your module requires anything extra before setting up (pluginsync enabled, etc.), mention it here. 
 
 ### Beginning with postfix
-[TBD]
 
-### Usage
-[TBD]
+The very basic steps needed for a user to get the module up and running. 
+
+If your most recent release breaks compatibility or requires particular steps for upgrading, you may wish to include an additional section here: Upgrading (For an example, see http://forge.puppetlabs.com/puppetlabs/firewall).
+
+## Usage
+
+Put the classes, types, and resources for customizing, configuring, and doing the fancy stuff with your module here. 
 
 ## Reference
-[TBD]
+
+Here, list the classes, types, providers, facts, etc contained in your module. This section should include all of the under-the-hood workings of your module so people know what the module is touching on their system but don't need to mess with things. (We are working on automating this section!)
 
 ## Limitations
-This module is currently only tested under Ubuntu 14.04, but it should also work on any other Linux distribution.
+
+This is where you list OS compatibility, version compatibility, etc.
 
 ## Development
 
-1. Fork it ( https://github.com/Bigluu/puppet-postfix/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Since your module is awesome, other users will want to play with it. Let them know what the ground rules for contributing are.
 
-Make sure your PR passes the Rspec tests.
+## Release Notes/Contributors/Etc **Optional**
+
+If you aren't using changelog, put your release notes here (though you should consider using changelog). You may also add any additional sections you feel are necessary or important to include here. Please use the `## ` header. 
