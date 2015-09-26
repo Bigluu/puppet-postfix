@@ -15,7 +15,7 @@
 
 This puppet module manages the [Postfix](http://www.postfix.org/) mail server.
 
-[![Build Status](https://travis-ci.org/Bigluu/puppet-postifx.svg?branch=master)](https://travis-ci.org/Bigluu/puppet-postfix)
+[![Build Status](https://travis-ci.org/Bigluu/puppet-postfix.svg?branch=master)](https://travis-ci.org/Bigluu/puppet-postfix)
 
 ## Module Description
 
