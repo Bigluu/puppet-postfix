@@ -7,6 +7,6 @@ spec/fixtures/*
 .rspec_system
 .vagrant
 .bundle
+.spre-commit-config.yaml
 vendor
 Gemfile.lock
-log/
